@@ -1,21 +1,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0d0d0d;
-    color: white;
+    background: #f5f5f5;
+    color: #222;
 }
 
 header {
     text-align: center;
     padding: 40px 20px;
-    background: #111;
-    border-bottom: 2px solid #222;
+    background: #ffffff;
+    border-bottom: 2px solid #e5e5e5;
 }
 
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #1a1a1a, #000);
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
 }
 
 .categories {
@@ -29,19 +29,19 @@ header {
 }
 
 .card {
-    background: #1a1a1a;
+    background: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    border: 1px solid #333;
+    border: 1px solid #ddd;
     text-decoration: none;
-    color: white;
+    color: #222;
     font-weight: bold;
     transition: 0.2s;
 }
 
 .card:hover {
-    background: #222;
+    background: #fafafa;
     transform: scale(1.03);
 }
 
@@ -49,5 +49,6 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    border-top: 1px solid #222;
+    border-top: 1px solid #ddd;
+    background: #ffffff;
 }
